@@ -1,27 +1,11 @@
-/*Take out the comments around each rule.
+/* What can you do here to make sure the divs take up the same space? */
 
-Try changing the display property*/
-span{
-    height:50px;
-    width: 75px;
-    background:#00ff00;
-    display: inline-block;
-    float: right;
+body{
+    display:table;
 }
-   
+
 div{
-    height:100px;
-    width: 45%;
+    width:30%;
     background:#00ffff;
-    /* display: */
-    float: left
-}
-
-
-p{
-    background-color: #ff00ff;
-    width: 200px;
-    height:100px;
-    clear: both;
-
-}
+    display:table-cell;
+  }
