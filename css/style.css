@@ -1,0 +1,52 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+}
+
+header {
+    background-color: #7fff85;
+    color: #000000;
+}
+
+nav {
+    background-color: hsl(78, 61%, 83%);
+}
+
+main {
+    background-color: #5fdd65;
+    font-size: 120%;
+}
+
+footer {
+    background-color: aquamarine;
+}
+
+li {
+    display: inline-block;
+    width: 20%
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+
+p {
+    line-height: 10mm;
+}
+
+/* a:link {
+    color:#010202;
+    background-color: antiquewhite;
+}
+
+a:visited {
+    color:#140c0d;
+    background-color: antiquewhite;
+}
+
+a:active {
+    color:hwb(0 12% 24%);
+    background-color: antiquewhite;
+} */
