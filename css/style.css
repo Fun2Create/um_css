@@ -1,3 +1,6 @@
+main {
+    min-height: 100px;
+}
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 150%;
@@ -22,8 +25,14 @@ footer {
 }
 
 li {
-    display: inline-block;
-    width: 20%
+background-color:yellow ;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 h1 {
@@ -50,3 +59,12 @@ a:active {
     color:hwb(0 12% 24%);
     background-color: antiquewhite;
 } */
+
+nav a {
+    text-decoration: none;
+}
+
+.current {
+    text-transform: uppercase;
+    background-color: aquamarine;
+}
