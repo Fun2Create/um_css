@@ -26,12 +26,13 @@ footer {
 }
 
 nav li {
-    display: inline-block;
+    display: inline-flex;
    /* flex-direction:row;*/
-    justify-content:space-evenly;
+    justify-content:space-around;
     list-style: none;
-    flex-wrap: nowrap;
-    align-items: baseline;
+/*    flex-wrap: nowrap;
+    width: 30%;*/
+    align-items: center;
 }
 
 nav img {
@@ -82,4 +83,9 @@ nav a {
 
 header h1 {
     font-family: cursive, 'Courier New', Courier, monospace;
+}
+
+nav ul {
+    position: relative;
+    top: 160px;
 }
