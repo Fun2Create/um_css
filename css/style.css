@@ -4,12 +4,16 @@ body {
 }
 
 header {
-    background-color: #7fff85;
+    background-color: #9fa19a;
     color: #000000;
+/*     display: grid;
+    grid-template-columns: 2; */
 }
 
 nav {
-    background-color: hsl(78, 61%, 83%);
+    display: inline-block;
+    width: 80%;
+
 }
 
 main {
@@ -18,12 +22,23 @@ main {
 }
 
 footer {
-    background-color: aquamarine;
+    background-color: #9fa19a;
 }
 
-li {
+nav li {
     display: inline-block;
-    width: 20%
+   /* flex-direction:row;*/
+    justify-content:space-evenly;
+    list-style: none;
+    flex-wrap: nowrap;
+    align-items: baseline;
+}
+
+nav img {
+    width: 10%;
+    position: relative;
+    left: 110%;
+    top: -40px;
 }
 
 h1 {
@@ -36,17 +51,35 @@ p {
     line-height: 10mm;
 }
 
-/* a:link {
-    color:#010202;
-    background-color: antiquewhite;
+.grid {
+    display: grid;
+    
+/*    grid-template-columns: auto auto; */
+    grid-template-columns: 40% 40%;
+    justify-content:space-evenly;
+    row-gap: 20px;
+/*    align-items: center; */
 }
 
-a:visited {
-    color:#140c0d;
-    background-color: antiquewhite;
+.grid > img {
+    width: 100%;
 }
 
-a:active {
-    color:hwb(0 12% 24%);
-    background-color: antiquewhite;
-} */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+.current {
+    text-transform: uppercase;
+    background-color: aquamarine;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+header h1 {
+    font-family: cursive, 'Courier New', Courier, monospace;
+}
