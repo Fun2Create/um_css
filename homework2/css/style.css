@@ -6,15 +6,12 @@ body {
 header {
     background-color: #9fa19a;
     color: #000000;
-/*     display: grid;
-    grid-template-columns: 2; */
 }
 
-nav {
-    display: inline-block;
-    width: 80%;
-
+header h1 {
+    font-family: cursive, 'Courier New', Courier, monospace;
 }
+
 
 main {
     background-color: #5fdd65;
@@ -23,23 +20,6 @@ main {
 
 footer {
     background-color: #9fa19a;
-}
-
-nav li {
-    display: inline-flex;
-   /* flex-direction:row;*/
-    justify-content:space-around;
-    list-style: none;
-/*    flex-wrap: nowrap;
-    width: 30%;*/
-    align-items: center;
-}
-
-nav img {
-    width: 10%;
-    position: relative;
-    left: 110%;
-    top: -40px;
 }
 
 h1 {
@@ -52,14 +32,40 @@ p {
     line-height: 10mm;
 }
 
-.grid {
-    display: grid;
+nav {
+    display: inline-block;
+    width: 80%;
+
+}
+
+
+nav li {
+    list-style: none;
+}
+
+nav img {
+    width: 10%;
+    position: relative;
+    left: 110%;
+/*    top: -40px;*/
+    top: 0vh;
+}
+
+nav a {
+    /*    text-decoration: none;*/
+    }
     
-/*    grid-template-columns: auto auto; */
+    
+nav ul {
+        position: relative;
+        top: 15vh;
+    }
+
+.grid {
+    display: grid;    
     grid-template-columns: 40% 40%;
     justify-content:space-evenly;
     row-gap: 20px;
-/*    align-items: center; */
 }
 
 .grid > img {
@@ -75,17 +81,4 @@ p {
 .current {
     text-transform: uppercase;
     background-color: aquamarine;
-}
-
-nav a {
-    text-decoration: none;
-}
-
-header h1 {
-    font-family: cursive, 'Courier New', Courier, monospace;
-}
-
-nav ul {
-    position: relative;
-    top: 160px;
 }
