@@ -53,12 +53,17 @@ nav img {
 
 nav a {
     /*    text-decoration: none;*/
+    color: #04044d;
     }
     
     
 nav ul {
         position: relative;
         top: 15vh;
+    }
+
+footer a {
+    color: #04044d;
     }
 
 .grid {
